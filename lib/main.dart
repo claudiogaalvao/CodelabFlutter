@@ -1,6 +1,5 @@
+import 'package:codelab_flutter/howRunIOOperations.dart';
 import 'package:flutter/material.dart';
-
-import 'howHandleIntentsFromExternalApp.dart';
 
 void main() {
   runApp(const SampleApp());
@@ -16,7 +15,7 @@ class SampleApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const IntentHandlerPage(),
+      home: const RunningIOOperation(),
     );
   }
 }
