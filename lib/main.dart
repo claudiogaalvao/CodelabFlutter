@@ -1,4 +1,4 @@
-import 'package:codelab_flutter/howRunIOOperations.dart';
+import 'package:codelab_flutter/howShowProgress.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class SampleApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const RunningIOOperation(),
+      home: const HowShowProgress(),
     );
   }
 }
